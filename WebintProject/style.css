@@ -7,6 +7,10 @@ body {
   background-color: Orange;
 }
 
+article {
+  text-align: center;
+}
+
 button {
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -79,15 +83,37 @@ button {
   width: 80%;
   height: 80%;
   margin-left: 10%;
+  align : right;
 }
 
-.checkbox { position: absolute;
+.checkbox { position: relative;
   bottom: 0%;
   right: 0%;
 }
 
 .imgGlasses {
+  border-radius: 5%;
+  align : right;
   width: 20%;
   height: 20%;
+  text-align: center;
+}
 
+.Commentary{
+  width: 50%;
+
+}
+
+h1{
+  font-family: Arial Black;
+  text-decoration: underline;
+}
+
+h2{
+  font-family: Arial Black;
+}
+
+
+h3{
+  font-family: Arial Black;
 }
