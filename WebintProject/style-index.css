@@ -1,9 +1,13 @@
 body{
-    font-family: Arial,Helvetica,sans-serif;
+
+    background-color: orange;
+    font-family: 'Indie Flower', cursive;
 }
 .top-bar{
     background-image: url("image-bar.jpg");
     height: 300px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
 }
 
 .index-btn{
@@ -13,8 +17,10 @@ body{
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 150px;
+    color: #cc0000;
+
 }
 
 .navbar {
@@ -75,66 +81,92 @@ body{
     float: left;
     height: 100%;
     z-index: 1010101010;
+    font-size: 20px;
     background-color: antiquewhite;
+    border-radius: 25px;
+    margin-bottom: 100px;
 }
 
 .ambiance1{
+
+    border-radius: 25px;
     width: 425px;
     height :300px;
     background-image: url("festive.jpg");
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: 'Indie Flower', cursive;
     font-size: 35px;
     color: white;
+
 }
 .ambiance2{
+
+    border-radius: 25px;
     width: 425px;
     height :300px;
     background-image: url("chill.jpg");
     font-size: 35px;
     color: white;
+    font-family: 'Indie Flower', cursive;
 }
 .ambiance3{
+
+    border-radius: 25px;
     width: 425px;
     height :300px;
     background-image: url("sexy.jpg");
     font-size: 35px;
     color: white;
+    font-family: 'Indie Flower', cursive;
 }
 .ambiance4{
+
+    border-radius: 25px;
     width: 425px;
     height :300px;
     background-image: url("after.jpg");
     font-size: 35px;
     color: white;
+    font-family: 'Indie Flower', cursive;
 }
 .ambiance5{
+
+    border-radius: 25px;
     width: 425px;
     height :300px;
     background-image: url("pre-drinks.jpg");
     font-size: 35px;
     color: white;
+    font-family: 'Indie Flower', cursive;
 }
 .ambiance6{
+
+    border-radius: 25px;
     width: 425px;
     height :300px;
     background-image: url("alternative.jpg");
     font-size: 35px;
     color: white;
+    font-family: 'Indie Flower', cursive;
 }
 .add-btn{
+    border-radius: 25px;
     align-content: center;
     border: none;
-    width: 230px;
-    height :230px;
+    width: 450px;
+    height :350px;
     display: block;
+    margin-top: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("add.png");
+    background-image: url("add-image.jpg");
+}
+.add-txt{
+    font-family: 'Indie Flower', cursive;
+    color:white;
 }
 
-.add{
 
-}
+
 
 
 
