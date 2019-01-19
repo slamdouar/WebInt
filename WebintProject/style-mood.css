@@ -1,0 +1,100 @@
+body{
+
+    background-color: orange;
+    font-family: 'Indie Flower', cursive;
+}
+.top-bar{
+    background-image: url("image-bar.jpg");
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+}
+
+.index-btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 150px;
+    color: orange;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+
+    width: 100%; /* Full width */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a, .navbar input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .navbar input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.col-1 {
+    position: relative;
+    width: 60%;
+    float: left;
+    height: 100%;
+    z-index: 1010101010
+}
+
+.col-2 {
+    position: relative;
+    width: 40%;
+    float: left;
+    height: 100%;
+    z-index: 1010101010;
+    font-size: 20px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+.recipe{
+
+    border-radius: 25px;
+    width: 425px;
+    height :300px;
+    font-family: 'Indie Flower', cursive;
+    border: none;
+    color: black;
+    margin-bottom: 8px;
+
+}
