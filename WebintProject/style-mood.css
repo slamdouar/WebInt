@@ -109,10 +109,29 @@ body{
     margin-right: auto;
 }
 
-#like{
-    background-image: url("like.png");
+#grey{
+    background-color: transparent;
+    height: 64px;
+    width: 64px;
+    align-content: center;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
 }
 
-#dislike{
-    background-image: url("dislike.png");
+#red{
+    background-color: transparent;
+    height: 64px;
+    width: 64px;
+    align-content: center;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
 }
+
+
+

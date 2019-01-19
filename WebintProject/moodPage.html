@@ -7,20 +7,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
     </style>
-    <script type="text/javascript">
-
-        function picture(){
-            if (document.getElementById('bigpic').style.display === 'none') {
-                document.getElementById('bigpic').style.display='block';
-            } else {
-                document.getElementById('bigpic').style.display='none';
-            }
-        }
-
-
-    </script>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="js/like-dislike.js"></script>
+    <script src="scriptMood.js"></script>
 </head>
 <body>
 <div class="top-bar" style="text-align: center;">
@@ -88,18 +75,16 @@
         <p>
             Duis non finibus arcu. Ut tempor posuere vulputate. Duis ac urna tellus. Vivamus lacinia sodales nunc, a varius nisi ultricies sed. Praesent laoreet placerat egestas. Nam posuere diam sed tellus fermentum pharetra. Nulla ultrices quis velit vitae rhoncus.
         </p>
-    </div>
-    <div>
-        <img id="bigpic" src="Mojito.jpg" style="display:none;"/>
-        <div id="demo">
-            <button class="like">Like
-                <span class="likes">0</span>
-            </button>
-            <button class="dislike">Dislike
-                <span class="dislikes">0</span>
-            </button>
+        <div>
+            <img id="bigpic" src="Mojito.jpg" style="display:none;"/>
+            <input type="image" src="heart-grey.png" id="grey" onclick="like()" style="display:none;">
+            <input type="image" src="heart-red.png" id="red" onclick="like()" style="display:none;">
         </div>
     </div>
+    <!--<div>
+        <img id="bigpic" src="Mojito.jpg" style="display:none;"/>
+        <img id="grey" src="heart-grey.png">
+    </div>-->
 </div>
 </body>
 </html>
