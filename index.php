@@ -1,1 +1,1 @@
-<?php include_once("WebintProject/index.html"); ?>
+<?php include_once("index.html"); ?>
