@@ -1,4 +1,4 @@
 
 function showImage(loadingImage){
-        document.getElementById('loadingImage').style.visibility="visible";
-    }
+        var hiddenImg = document.getElementById('loadingImage');
+        hiddenImg.style.visibility = 'visible' ;}

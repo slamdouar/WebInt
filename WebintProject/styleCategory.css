@@ -79,11 +79,14 @@ button {
 }
 
 
-.container { position: relative;
+.container {
+  position: relative;
   width: 80%;
   height: 80%;
   margin-left: 10%;
-  align : right;
+  text-align: center;
+  align-items: center;
+  margin-top: 5%;
 }
 
 .checkbox { position: relative;
@@ -110,7 +113,7 @@ button {
   width: 20%;
   height: 20%;
   text-align: center;
-  visibility: hidden;
+  visibility: visible;
 }
 
 h1{
