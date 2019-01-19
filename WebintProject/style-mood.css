@@ -108,3 +108,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+#like{
+    background-image: url("like.png");
+}
+
+#dislike{
+    background-image: url("dislike.png");
+}
