@@ -1,19 +1,16 @@
+body{
+
+    background-color: orange;
+    font-family: 'Indie Flower', cursive;
+}
 .top-bar{
     background-image: url("../img/image-bar.jpg");
     height: 300px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
 }
 
-body {
-  background-color: Orange;
-    font-family: 'Indie Flower', cursive;
-}
-
-article {
-  text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-
-button {
+.index-btn{
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -21,7 +18,9 @@ button {
     overflow: hidden;
     outline:none;
     font-family: 'Indie Flower', cursive;
-    font-size: 35px;
+    font-size: 150px;
+    color: orange;
+
 }
 
 .navbar {
@@ -67,6 +66,20 @@ button {
         border: 1px solid #ccc;
     }
 }
+
+
+article {
+  text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.send {
+    text-align: center;
+    border: solid;
+    border-radius: 25%;
+}
+
+
 
 .column {
     float: left;
