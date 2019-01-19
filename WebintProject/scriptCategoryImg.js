@@ -1,4 +1,4 @@
 
 function showImage(loadingImage){
-        var hiddenImg = document.getElementById('loadingImage');
-        hiddenImg.style.visibility = 'visible' ;}
+        var hiddenImg = document.getElementById('glass').src=loadingImage;
+        }
