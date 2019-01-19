@@ -7,13 +7,27 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
     </style>
+    <script type="text/javascript">
+
+        function picture(){
+            if (document.getElementById('bigpic').style.display === 'none') {
+                document.getElementById('bigpic').style.display='block';
+            } else {
+                document.getElementById('bigpic').style.display='none';
+            }
+        }
+
+
+    </script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/like-dislike.js"></script>
 </head>
 <body>
 <div class="top-bar" style="text-align: center;">
     <button type="button" class="index-btn">Make A Cocktail</button>
 </div>
 <div class="navbar">
-    <a href="#home">Home</a>
+    <a href="./index.html">Home</a>
     <a href="#vodka">Vodka</a>
     <a href="#tequila">Tequila</a>
     <a href="#rhum">Rhum</a>
@@ -25,7 +39,7 @@
 </div>
 <div class="row">
     <div class="col-1">
-        <button type="button" class="recipe">
+        <button type="button" class="recipe" onclick="picture()">
             <h1>Mojito</h1>
             <ul>
                 <li>5 cl Rhum</li>
@@ -67,12 +81,24 @@
         </button>
     </div>
     <div class="col-2">
+        <h1>Festive</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at erat nec mi volutpat pretium. Phasellus congue efficitur hendrerit. Donec maximus, orci a finibus ornare, mauris leo lobortis enim, eget accumsan nulla libero et orci. Mauris a commodo erat. Curabitur imperdiet aliquam erat a euismod. Morbi laoreet vestibulum malesuada. Quisque posuere ac sem at maximus. Integer sollicitudin turpis auctor nibh sodales placerat.
         </p>
         <p>
             Duis non finibus arcu. Ut tempor posuere vulputate. Duis ac urna tellus. Vivamus lacinia sodales nunc, a varius nisi ultricies sed. Praesent laoreet placerat egestas. Nam posuere diam sed tellus fermentum pharetra. Nulla ultrices quis velit vitae rhoncus.
         </p>
+    </div>
+    <div>
+        <img id="bigpic" src="Mojito.jpg" style="display:none;"/>
+        <div id="demo">
+            <button class="like">Like
+                <span class="likes">0</span>
+            </button>
+            <button class="dislike">Dislike
+                <span class="dislikes">0</span>
+            </button>
+        </div>
     </div>
 </div>
 </body>

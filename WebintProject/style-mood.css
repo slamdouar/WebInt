@@ -27,7 +27,7 @@ body{
     overflow: hidden;
     background-color: #333;
 
-    width: 100%; /* Full width */
+    width: 100%;
 }
 
 .navbar a {
@@ -84,17 +84,27 @@ body{
     font-size: 20px;
     background-color: antiquewhite;
     border-radius: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .recipe{
 
     border-radius: 25px;
-    width: 425px;
+    width: 40%;
     height :300px;
     font-family: 'Indie Flower', cursive;
     border: none;
     color: black;
     margin-bottom: 8px;
 
+}
+#bigpic{
+    border-radius: 25px;
+    align-content: center;
+    border: none;
+    width: 450px;
+    height :350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
