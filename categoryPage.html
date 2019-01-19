@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Add A Cocktail</title>
+      <style>
+          @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+      </style>
+    <link rel="stylesheet" href="CSS/styleCategory.css">
+    <script src="JS/scriptCategoryImg.js"></script>
+</head>
+<body>
+<div class="top-bar">
+    <button type="button" class="index-btn">Make A Cocktail</button>
+</div>
+<div class="navbar">
+    <a href="./index.html">Home</a>
+    <a href="./Festive.html">Festive</a>
+    <a href="./Chill.html">Chill</a>
+    <a href="./Sexy.html">Sexy</a>
+    <a href="./After.html">After</a>
+    <a href="./Pre-Drinks.html">Pre-Drinks</a>
+    <a href="./Alternative.html">Alternative</a>
+    <a href="./categoryPage.html" class="add-nav">Add a Cocktail</a>
+    <a href="#Login" class="log">Login</a>
+    <a href="#Login" class="log">Sign Up</a>
+</div>
+
+<div class="Category">
+  <h1>Be creative !!</h1>
+  <h2>Here you can create your own cocktails.</h2>
+
+<article>
+  <input type="text" placeholder="Name your cocktail">
+</article>
+
+<article>
+<h3>Choose your Alcohol(s):</h3>
+  <select name="Alcohol" multiple>
+    <option value="Rhum">Rhum</option>
+    <option value="Vodka">Vodka</option>
+    <option value="Tequila">Tequila</option>
+    <option value="Whiskey">Whiskey</option>
+    <option value="Jaegermeister">Jaegermeister</option>
+    <option value="Gin">Gin</option>
+    <option value="Curacao">Curacao</option>
+  </select>
+</article>
+
+<article>
+  <h3>Choose your Fruit juice(s):</h3>
+  <select name="Fruit Juice" multiple>
+    <option value="Orange Juice">Orange Juice</option>
+    <option value="Apple Juice">Apple Juice</option>
+    <option value="Strawberry Juice">Strawberry Juice</option>
+    <option value="Kiwi Juice">Kiwi Juice</option>
+    <option value="Ananas Juice">Ananas Juice</option>
+    <option value="Grape juice">Grape juice</option>
+    <option value="Grapefruit juice">Grapefruit juice</option>
+  </select>
+</article>
+
+<article>
+  <h3>Choose other beverage(s) that you want to add:</h3>
+  <select name="Other Beverage" multiple>
+    <option value="Coke">Coke</option>
+    <option value="Selecto">Selecto</option>
+    <option value="Tonic">Tonic</option>
+    <option value="Ginger Ale">Ginger Ale</option>
+    <option value="Milk">Milk</option>
+  </select>
+</article>
+
+<article>
+  <h3>For which ambience did you create this cocktail?:</h3>
+  <select name="Ambience" multiple>
+    <option value="Chill">Chill</option>
+    <option value="Sexy">Sexy</option>
+    <option value="After">After</option>
+    <option value="Pre-Drinks">Pre-Drinks</option>
+    <option value="Alternative">Alternative</option>
+  </select>
+</article>
+
+  <article>
+  <h3>Now choose the glass:</h3>
+  <div class="container">
+      <input type="image" src="img/verreWhisky.jpg" class="imgGlasses" onclick=showImage('verreWhisky.jpg')>
+      <input type="image" src="img/verreMartini.jpg" class="imgGlasses" onclick=showImage("verreMartini.jpg")>
+      <input type="image" src="img/verreHighball.jpg" class="imgGlasses" onclick=showImage('verreHighball.jpg')>
+  </div>
+  <div class="container">
+      <img id = "glass" class="hid_img" src="img/verreHighball.jpg">
+  </div>
+  </article>
+
+<article>
+  <h3>Write commentary to help others in the creation of your recipes:</h3>
+  <input class="Commentary" type="text" placeholder="Commentary or helping tips">
+    <h3>You can also upload an image (optional)</h3>
+    <form>
+        <input type="file" name="picture" accept="image/*">
+    </form>
+</article>
+
+<article>
+    <button class="send" type="button" name="Submit">Send your recipe</button>
+</article>
+
+</div>
+</body>
