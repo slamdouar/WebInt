@@ -19,7 +19,7 @@ body{
     outline:none;
     font-family: 'Indie Flower', cursive;
     font-size: 150px;
-    color: #cc0000;
+    color: orange;
 
 }
 
@@ -67,7 +67,7 @@ body{
     }
 }
 
-#col-1 {
+.col-1 {
     position: relative;
     width: 60%;
     float: left;
@@ -75,7 +75,7 @@ body{
     z-index: 1010101010
 }
 
-#col-2 {
+.col-2 {
     position: relative;
     width: 40%;
     float: left;
@@ -87,80 +87,14 @@ body{
     margin-bottom: 100px;
 }
 
-.ambiance1{
+.recipe{
 
     border-radius: 25px;
     width: 425px;
     height :300px;
-    background-image: url("festive.jpg");
     font-family: 'Indie Flower', cursive;
-    font-size: 35px;
-    color: white;
-
-}
-.ambiance2{
-
-    border-radius: 25px;
-    width: 425px;
-    height :300px;
-    background-image: url("chill.jpg");
-    font-size: 35px;
-    color: white;
-    font-family: 'Indie Flower', cursive;
-}
-.ambiance3{
-
-    border-radius: 25px;
-    width: 425px;
-    height :300px;
-    background-image: url("sexy.jpg");
-    font-size: 35px;
-    color: white;
-    font-family: 'Indie Flower', cursive;
-}
-.ambiance4{
-
-    border-radius: 25px;
-    width: 425px;
-    height :300px;
-    background-image: url("after.jpg");
-    font-size: 35px;
-    color: white;
-    font-family: 'Indie Flower', cursive;
-}
-.ambiance5{
-
-    border-radius: 25px;
-    width: 425px;
-    height :300px;
-    background-image: url("pre-drinks.jpg");
-    font-size: 35px;
-    color: white;
-    font-family: 'Indie Flower', cursive;
-}
-.ambiance6{
-
-    border-radius: 25px;
-    width: 425px;
-    height :300px;
-    background-image: url("alternative.jpg");
-    font-size: 35px;
-    color: white;
-    font-family: 'Indie Flower', cursive;
-}
-.add-btn{
-    border-radius: 25px;
-    align-content: center;
     border: none;
-    width: 450px;
-    height :350px;
-    display: block;
-    margin-top: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url("add-image.jpg");
-}
-.add-txt{
-    font-family: 'Indie Flower', cursive;
-    color:white;
+    color: black;
+    margin-bottom: 8px;
+
 }
